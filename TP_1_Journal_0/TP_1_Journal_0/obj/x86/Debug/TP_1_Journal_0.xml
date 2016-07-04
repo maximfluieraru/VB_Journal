@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TP_1_Journal_0
+</name>
+</assembly>
+<members>
+<member name="P:TP_1_Journal_0.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TP_1_Journal_0.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TP_1_Journal_0.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:TP_1_Journal_0.Accueil.fermer">
+	<summary>
+ La méthode est apple a la ferméture de la form Accueil  
+ </summary>
+	<returns>Boolean</returns>
+	<remarks>Enregistre les modification OUI NO Cancel </remarks>
+</member><member name="M:TP_1_Journal_0.Accueil.Accueil_Load(System.Object,System.EventArgs)">
+	<summary>
+ Chargement de 'Form' Accueil 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>la methode <see cref="M:TP_1_Journal_0.Accueil.activeComponents(System.Boolean)">activeComponents</see> est appelée pour desactiver certains panel</remarks>
+</member><member name="M:TP_1_Journal_0.Accueil.OuvrirToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ La méthode est utiliser pour ouvrir un journal déjà enregistré 
+ </summary>
+	<param name="sender">Bouton ouvrir de menu Journal</param>
+	<param name="e">Click</param>
+	<remarks>la méthode <see cref="M:TP_1_Journal_0.Accueil.jrnlActive(System.String,System.Boolean,System.String)">jrnlActif</see> est applée pour affecter les controleurs est charger les liste </remarks>
+</member><member name="M:TP_1_Journal_0.Accueil.creerJournal(TP_1_Journal_0.Type)">
+	<summary>
+ Creer un nouveau Journal.
+ </summary>
+	<param name="value">le type pour creer un journal dans la collection _listType</param>
+	<remarks>la methode est appeler par le bouton OK de <see cref="P:TP_1_Journal_0.JournalForm.OK_Button">JournalForm</see>. 
+ La méthode <see cref="M:TP_1_Journal_0.Accueil.jrnlActive(System.String,System.Boolean,System.String)">jrnlActif</see> est applée pour affecter les controleurs est charger les liste</remarks>
+</member><member name="M:TP_1_Journal_0.JournalForm.ajouterType(TP_1_Journal_0.Type)">
+	<summary>
+ Ajouter un nouveau type de journal dans la collectione _listeType
+ </summary>
+	<param name="value">le nouveau type cree</param>
+	<remarks>methode est appeler par lr bouton OK de TypeForm</remarks>
+</member>
+</members>
+</doc>
